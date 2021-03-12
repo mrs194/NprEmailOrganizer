@@ -6,7 +6,9 @@ Organize and validate emails from a txt file and output them to a new file.
 2. Before running program, ensure txt file containing list of emails is in the project directory and
 name the file "EmailList.txt"
 
-3. Compile/run.
+3. Using Junit5 dependencies for unit testing. If there are compile errors due to Junit dependencies. Add dependencies using IDE.
+
+4. Compile/run.
 
 
 
