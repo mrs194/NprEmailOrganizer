@@ -61,7 +61,7 @@ public class Main {
      *
      * @param input the email to validate
      * @return is email valid
-     * Using a Java Regular expression create a pattern and
+     * Using a Java Regular expression, create pattern and
      * compare with input
      */
     public static boolean validateEmail(String input) {

@@ -3,9 +3,11 @@ package com.company.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import static com.company.Main.Main.validateEmail;
-import static org.junit.jupiter.api.Assertions.*;
 import java.util.stream.Stream;
+
+import static com.company.Main.Main.validateEmail;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class MainTest {
 
@@ -49,7 +51,7 @@ class MainTest {
                 "invalid@-gmail.c",
                 "invalid@gmail.com-",
                 "qwertyuiopasdfghjklzxcvbnm1234567890123456789012345678901" +
-                        "23456789012@gmail.com"); //email address can is no
+                        "23456789012@gmail.com"); //email address can be no
                                             // longer than 64 characters
     }
 }
